@@ -13,14 +13,12 @@ Second, add the following code in app_controller.php.
 
 <pre>
 <?php
-  class AppController extends Controller {
-    var $components = array('Viewpath.Viewpath');
+class AppController extends Controller {
+    var $components = array('DebugKit.Toolbar' => array('panels' => 'Viewpath.viewpath'));
+}
+?>
 </pre>
-
-Click icon.
-
-!http://github.com/k1LoW/viewpath/raw/master/snap.png!
 
 h2. Requirement
 
-* jQuery
+DebugKit
