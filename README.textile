@@ -6,7 +6,7 @@ h2. Features
 
 * Display (layout, view, element) file path of current page.
 
-h2. Usage 
+h2. Usage
 
 h3. with DebugKit
 
